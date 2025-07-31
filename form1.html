@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donor Information</title>
+    <link rel ="stylesheet" type = "text/css" href="form1.css" />
+
+</head>
+<body>
+
+    <div id="one">
+    <form method="GET">
+    <p>> <strong>1 Donation</strong> > 2 Confirmation >Thank You!</p>
+    <h2>Donor Information</h2>
+
+    <strong class="inline" >First Name </strong> <input class="box" type="text" name="first_name" required /><br>
+    <strong class="inline">Last Name </strong> <input class="box" type="text" name="last_name" /><br>
+    <strong class="inline">Company </strong> <input class="box"  type="text" name="company" /><br>
+    <strong class="inline">Address 1 </strong> <input class="box"  type="text" name="address 1" required /><br>
+    <strong class="inline">Address 2 </strong> <input class="box"  type="text" name="address 2" /><br>
+    <strong class="inline">City </strong> <input class="box"  type="text" name="city" required /><br>
+    <strong class="inline">State </strong>
+    <select required>
+        <option value="" >Select a state</option>
+        <option value="Alabama">Alabama</option>
+        <option value="Alaska">Alaska</option>
+        <option value="Arizona">Arizona</option>
+        <option value="Arkansas">Arkansas</option>
+        <option value="California">California</option>  
+        <option value="Colorado">Colorado</option>
+        <option value="Connecticut">Connecticut</option>
+        <option value="Delaware">Delaware</option>
+
+       
+      </select>
+    <br />
+    <strong class="inline">Zip Code </strong> <input type="text" name="zip_code" required class="box"/><br>
+    <strong class="inline">Country</strong> <select required class="country">
+        <option value="">Select a country</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="United States">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="Mexico">Mexico</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Australia">Australia</option>
+        <option value="New Zealand">New Zealand</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        <option value="Germany">Germany</option>
+
+      </select>
+      <br />
+    <strong class="inline">Phone</strong> <input type="tel" name="phone_number" required class="box"/><br>
+    <strong class="inline">Fax</strong> <input type="tel" name="fax_number" class="box"/><br />
+    <strong class="inline">Email</strong> <input type="email" name="email" required class="box"/><br />
+    <strong class="inline">Donation Amount</strong class="box">
+    <input type="radio" name="donation amount" value="none" checked /> None
+    <input type="radio" name="donation amount" value="$50" /> $50
+    <input type="radio" name="donation amount" value="$75" /> $75
+    <input type="radio" name="donation amount" value="$100" /> $100
+    <input type="radio" name="donation amount" value="$250" /> $250
+    <input type="radio" name="donation amount" value="other" /> other </br>
+    <p id="fix"> (check a button or type in your <br> amount) </p>
+      <strong class="inline">Other Amount $ </strong><input type="text" name="other_donation" /> </br>
+    <strong class="inline">Recurring Donation</strong> <input type ="checkbox" name="recurring_donation" value="I am interested in giving on a regular basis" /> I am interested in giving on a regular basis
+    <br />
+    <strong class="inline"></strong>monthly credit card $ <input type="text" name="Monthly credit card $ "/> for <input type ="text" name ="for" /> months
+    <br />
+    <h2>Honorarium and Memorial Donation Information</h2>
+    <strong class="inline">I would like to make this donation</strong> <input type="radio" name="donation_type" value="in honor of" /> In Honor Of </br>
+    <strong class="inline"></strong> <input type="radio" name="donation_type" value="in memory of"/> In Memory Of
+    <br />
+    <strong class="inline">Name </strong> <input type="text" name="name" class="box"/><br>
+    <strong class="inline">Acknowledge Donation to</strong> <input type="text" name="acknowledgment" class="box"/><br>
+    <strong class="inline">Address </strong> <input type="text" name="address" class="box"/><br>
+    <strong class="inline">City </strong> <input type="text" name="city" class="box"/><br>
+    <strong class="inline">State </strong> <select>
+        <option value="">Select a state</option>
+        <option value="Alabama">Alabama</option>
+        <option value="Alaska">Alaska</option>
+        <option value="Arizona">Arizona</option>
+        <option value="Arkansas">Arkansas</option>
+        <option value="California">California</option>  
+        <option value="Colorado">Colorado</option>
+        <option value="Connecticut">Connecticut</option>
+        <option value="Delaware">Delaware</option>
+        <option value="Florida">Florida</option>        
+      </select><br />
+    <strong class="inline">Zip Code </strong> <input type="text" name="zip" class="box"/><br>
+    <h2>Additional Information</h2>
+    <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+    <strong class="inline">Name </strong> <input type="text" name="name" class="box"/><br>
+    <checkbox> <input type="checkbox" name="anonymous" value="I prefer to remain anonymous" /> I would like my gift to remain anonymous.
+    <br />
+    <checkbox> <input type="checkbox" name="gift form" value="My employer offers a matching gift program. I will mail the matching gift form" /> My employer offers a matching gift program. I will mail the matching gift form.
+    <br />
+    <checkbox> <input type="checkbox" name="cost of acknowledgment" value="Please save the cost of acknowledging this gift by not mailing a thank you letter" /> Please save the cost of acknowledging this gift by not mailing a thank you letter.
+    <br />
+    <strong class="inline">Comments</strong> <input type="text" name="comments" class="comments"/><br />
+    <strong class="inline">How may we contact you?</strong> <checkbox> <input type="checkbox" name="email" value="Email" /> Email
+    <br />
+    <strong class="inline"></strong> <checkbox> <input type="checkbox" name="postal mail" value="Postal Mail" /> Postal Mail
+    <br />
+    <strong class="inline"></strong> <checkbox> <input type="checkbox" name="telephone" value="Telephone" /> Telephone
+    <br />
+    <strong class="inline"></strong> <checkbox> <input type="checkbox" name="fax" value="fax" /> Fax
+    <br />
+    <p>I would like to receive newsletters and information about special events by:</p>
+    <strong class="inline"></strong> <checkbox> <input type="checkbox" name="email_newsletter" value="Email" /> E-mail
+    <br />
+    <strong class="inline"></strong> <checkbox> <input type="checkbox" name="postal_mail_" value="postal mail" /> Postal Mail
+    <br />
+    <checkbox> <input type="checkbox" name="volunteer_information" value="I would like information about volunteering with the" /> I would like information about volunteering with the:
+    <br />
+    <input type="txt" name="" value="" class="lline" /> <br />
+    <strong class="inline"></strong>  <button class="reset" type="reset">Reset</button>
+    <button class="submit" type="submit">Continue</button> </br>
+    <img src="https://cdn-icons-png.flaticon.com/512/890/890132.png" alt="Secure Server" />
+    <p>Donate online with confidence. You are on a secure server</p>
+    <p>If you have any problems or questions, please contact us.</p>
+
+    </form>
+</div>
+</body>
+</html>
