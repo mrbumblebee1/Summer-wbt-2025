@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #31394E;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 110%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.contact-info {
+    margin-top: 120px;
+    margin-left: 170px;
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0; 
+}   
+.contact-info {
+    line-height: 1; 
+}
+
+.contact-info a {
+    color: rgb(94, 242, 255); 
+    text-decoration: none; 
+}
+
+.contact-info a:hover {
+    color: rgb(3, 152, 152); 
+}
+
+.contact-info a span {
+    display: inline-block;
+}
+
+.contact-info a:hover span {
+    text-decoration: underline;
+}
+
+.profile-img {
+
+    width: 250px;
+    height: 280px;
+    margin-right: 80px;
+    margin-left: 160px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #ffcc00;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 10px 0;
+}
+
+.profile-img:hover{
+    transform: scale(1.08);
+    transition: transform 0.8s ease;
+}
+
+.footer {
+    background-color: #31394E;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.social-icon:hover {
+    color: #3498db;
+}
+
+.social-icon i {
+    margin-right: 5px;
+}

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #31394E;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 110%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+nav {
+
+    width:100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    transform: scale(1.1); 
+    transition: transform 0.8s ease; 
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-img {
+    width: 26%;
+    padding:25px;
+
+    /* width: 310px; */
+    /* height: 350px; */
+    height: auto;
+    margin-right: 20px;
+}
+
+.education-details, .education-details1 {
+    flex: 1;
+}
+
+.education-details {
+    text-align: justify;
+    padding: 50px;
+    line-height: 1.3;
+    /* max-width: 800px; */
+width: 38%;
+}
+
+.education-details1 {
+    text-align: justify;
+    line-height: 1.4;
+    /* max-width: 800px; */
+    width: 38%;
+    /* max-height: 600px; */
+}
+
+.education-details:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.75;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #ffcc00;
+}
+
+.profile-img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.8s ease; 
+}
+
+.education-details1:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 10px 0;
+    width:100%
+}
